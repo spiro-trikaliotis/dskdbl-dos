@@ -41,7 +41,7 @@ with dd on Linux or a BSD variant.
 
     <ESC> aborts immediately
 
-:warning: ** When formatting a disk, the boot sector might look unusual **
+:warning: **When formatting a disk, the boot sector might look unusual**
 Back then, I thought it would be nice to have my own boot code. From todays
 perspective, this might not be a good idea anymore. This applies to -F, -C
 and -I only.
@@ -70,6 +70,6 @@ compile from there.
 
 ## License
 
-The original sources from me did not include any license. I put this under
-GPL2 for now. As there are no external contributions, I am not sure if this will
-remain this way forever.
+The original sources from back then did not include any license. I put this
+under GPL2 for now. As there are no external contributions, I am not sure if
+this will remain this way forever.
