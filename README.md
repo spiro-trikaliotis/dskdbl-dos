@@ -6,9 +6,11 @@ dskdbl-dos (original name: DSKDBL) is small utility for reading and writing
 floppy disks on MS-DOS 3.3 and up.
 
 This is a small utility I wrote in 1996 or so for reading and writing disk
-images with a PC, in order to preserve them.
+images with a PC, in order to preserve them. The images are written in a raw
+format into the given file. That is, the sector contents are copied block by
+block, without any header, footer or another information.
 
-## Why?
+## Why do I release this to the public?
 
 These sources are provided mostly for nostalgic reasons. If you want to
 preserve images on your own, in almost all cases, you are much better served
@@ -41,10 +43,11 @@ with dd on Linux or a BSD variant.
 
     <ESC> aborts immediately
 
-:warning: **When formatting a disk, the boot sector might look unusual**
+:warning: **When formatting a disk, the boot sector might look unusual!**
 Back then, I thought it would be nice to have my own boot code. From todays
 perspective, this might not be a good idea anymore. This applies to -F, -C
-and -I only.
+and -I only. If reading or writing an image, the original boot sector will
+be preserved, and the tool will not interfere.
 
 ## Usage Examples
 
