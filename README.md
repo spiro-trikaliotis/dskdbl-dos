@@ -11,27 +11,27 @@ This source are provided mostly for nostalgic reasons. If you want to preserve
 images on your own, in almost all cases, you are much better served with dd on
 Linux or a BSD variant.
 
-Disk-Doubler (c) 1996 Spiro Trikaliotis
-Usage: DSKDBL [-?bvrwdfFCI] filename
+    Disk-Doubler (c) 1996 Spiro Trikaliotis
+    Usage: DSKDBL [-?bvrwdfFCI] filename
 
-Available options:
+    Available options:
 
--?          Print this help screen
--b          Print out banner
--v          Verbose mode
+    -?          Print this help screen
+    -b          Print out banner
+    -v          Verbose mode
 
--r          Read a complete disk into a file
--w          Write a complete disk from a file
--c          Compare a disk with a file
--d:{x}      Work on drive x (default=A:)
--f:360      Diskformat:  360K
--f:1200     Diskformat: 1200K
--f:720      Diskformat:  720K
--f:1440     Diskformat: 1440K
--F          Really FORMAT the disk to be written
--C          Really CLEAR a disk
--I          Initialize the disk (i.e., rewrite boot/root/FAT)
--Nxxxxyyyy  Assign the volume serial no. xxxx-yyyy to the disk
-            (only with -F, -C, -I)
+    -r          Read a complete disk into a file
+    -w          Write a complete disk from a file
+    -c          Compare a disk with a file
+    -d:{x}      Work on drive x (default=A:)
+    -f:360      Diskformat:  360K
+    -f:1200     Diskformat: 1200K
+    -f:720      Diskformat:  720K
+    -f:1440     Diskformat: 1440K
+    -F          Really FORMAT the disk to be written
+    -C          Really CLEAR a disk
+    -I          Initialize the disk (i.e., rewrite boot/root/FAT)
+    -Nxxxxyyyy  Assign the volume serial no. xxxx-yyyy to the disk
+                (only with -F, -C, -I)
 
-<ESC> aborts immediately
+    <ESC> aborts immediately
