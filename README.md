@@ -68,8 +68,13 @@ Format a disk with the serial number 1234-ABCD:
 It was written in C++ with Borland C++ 3.1 (BC++). It should run on any MS-DOS
 PC from MS-DOS 3.3 (for support of 3,5" HD) up to MS-DOS 6.22.
 
-Start the Borland C++ compiler with the project file source/DSKDBL.PRJ, and
-compile from there.
+Start the Borland C++ compiler IDE.
+
+At first, you must compile the libary with the project file
+source/floppy/FLOPPY.PRJ.
+
+Afer this has been compiled, you can open the project file source/DSKDBL.PRJ,
+and compile from there.
 
 ## License
 
