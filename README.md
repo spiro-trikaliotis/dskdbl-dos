@@ -73,6 +73,6 @@ compile from there.
 
 ## License
 
-The original sources from back then did not include any license. I put this
-under GPL2 for now. As there are no external contributions, I am not sure if
-this will remain this way forever.
+The original sources from back then did not include any license. However, I am
+using GNU getopt internally, which is under GPLv2. So, I put this whole under
+GPLv2, which is a compatible license for sure.
